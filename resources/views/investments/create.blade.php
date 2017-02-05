@@ -4,8 +4,7 @@
     {!! Form::open(['url' => 'investments']) !!}
 
     <div class="form-group">
-        {!! Form::label('customer_id', $customers) !!}
-        {!! Form::text('name',null,['class'=>'form-control']) !!}
+        {!! Form::select('customer_id', $customers) !!}
     </div>
     <div class="form-group">
         {!! Form::label('category', 'Category') !!}
