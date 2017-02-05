@@ -16,11 +16,11 @@
         {!! Form::text('description',null,['class'=>'form-control']) !!}
     </div>
     <div class="form-group">
-        {!! Form::label('acuired_value', 'Acquired Value') !!}
-        {!! Form::text('acuired_value',null,['class'=>'form-control']) !!}
+        {!! Form::label('acquired_value', 'Acquired Value') !!}
+        {!! Form::text('acquired_value',null,['class'=>'form-control']) !!}
     </div>
     <div class="form-group">
-        {!! Form::label('acquired_date', 'Acqured Date') !!}
+        {!! Form::label('acquired_date', 'Acquired Date') !!}
         {!! Form::text('acquired_date',null,['class'=>'form-control']) !!}
     </div>
     <div class="form-group">
